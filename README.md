@@ -26,7 +26,7 @@ Thats it!!
 
 This scripts will install 
 - Openlitespeed Web Server (Latest stable version)
-- ProFTPD (Latest stable version)
+- ProFTPD  (Both Actvie-Passive mode enabled)
 - MariaDB (Latest stable version)
 - PHP 7.2 / 7.3 / 7.4 (Latest stable version)
 - PHPMyAdmin 4.9.4 (Latest stable version)
@@ -41,6 +41,7 @@ This scripts will install
 - Upload backup on Google Drive (Coming Soon)
 - Enable or Disable CSF firewall
 - Plugins (ADVANCED)
+- 15 + sysadmin script for daily/ weekly server management
 
 ### Access Openlitespeed web server
 ```
@@ -67,7 +68,7 @@ This only symlink to /usr/local/lsws/bin/lswsctrl
 lsws start
 ```
 type 'lsws help' to list command
-#### To create Vhosts
+#### To create Vhosts / Add Domain / Add Websites
 ```
 /scripts/lscreate
 ```
@@ -77,3 +78,21 @@ and fill your domain name, ftp username and ftp password.
 /scripts/certbot
 ```
 Enter your domain, and certificate is auto installed to your domain.
+
+#### To create Databases
+```
+/scripts/createdb
+```
+
+#### To List Databases
+```
+/scripts/listdb
+```
+
+#### To check server health and service status
+```
+/scripts/olphealth
+```
+Many more features.
+
+Visit https://openlitepanel.com for more details.
