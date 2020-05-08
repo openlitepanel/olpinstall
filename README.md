@@ -18,7 +18,7 @@ Copy and Paste this line in your fresh install Centos7
 ```
 bash <( curl -k https://raw.githubusercontent.com/openlitepanel/olpinstall/master/install.sh )
 
-Paste - License Key
+Enter / Paste - License Key ( PRODUCT KEY )
 
 Thats it!!
 
@@ -38,7 +38,7 @@ This scripts will install
 - Simple Scripts to create daily MySql backup
 - Simple Way to define Backup Retention Policy
 - Simple Scripts to upgrade Openlitespeed version
-- Upload backup on Google Drive (Coming Soon)
+- Upload backup on Google Drive / S3 Bucket (Coming Soon)
 - Enable or Disable CSF firewall
 - Plugins (ADVANCED)
 - 15 + sysadmin script for daily/ weekly server management
