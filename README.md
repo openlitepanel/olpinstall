@@ -1,4 +1,4 @@
-# OPENLitePanel - Install and management of OpenLiteSpeed ( OLS ) via CLI on CentOS 7 & CentOS 8
+# OPENLitePanel - Install and management of OpenLiteSpeed (OLS) via CLI on CentOS 7 & CentOS 8
 
 
 OPENLitePanel is an almost free web server setup solution. Its included OpenLiteSpeed + Apache* + MariaDB + PHP + Perl + phpMyAdmin + ProFTPD.
@@ -95,4 +95,4 @@ Enter your domain, and certificate is auto installed to your domain.
 ```
 Many more features.
 
-Visit https://openlitepanel.com for more details.
+Visit https://openlitepanel.com for more details. Feel free to connect support@openlitepanel.com
